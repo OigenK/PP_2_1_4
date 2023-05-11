@@ -10,4 +10,11 @@ public class Timer {
     public Long getTime() {
         return nanoTime;
     }
+
+    @Override
+    public String toString() {
+        return "Timer{" +
+                "nanoTime=" + nanoTime +
+                '}';
+    }
 }
